@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "main" "footer";
+  margin: 0.8rem;
+
+}
+
+header {
+  grid-area: header;
+  background: url(/assets/zoe-schaeffer-PFbOZfKh07I-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+
+
+}
+
+
+
+.header_container {
+  padding-top: 0.8em;
+  padding-right: 0.8em;
+  align-self: end;
+}
+
+
+.header_2_3_and_4_container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header_3_and_4_container {
+  display: flex;
+}
+
+.first-picture {
+  background-color: #9E6D52;
+  flex: 1;
+  display: flex;
+  padding: 2em;
+}
+
+.second-picture {
+  background-color: #0A846E;
+  flex: 1;
+  display: flex;
+  padding: 2em;
+
+}
+
+.min_navigator_big_screen {
+  display: none;
+}
+
+.seedling {
+  margin-top: 0.7em;
+}
+
+.dig {
+  align-self: center;
+}
+
+.main_part {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  max-width: 100%;
+}
+
+.main_part h1 {
+  color: #0A846E;
+}
+
+.main_part p {
+  text-align: center;
+}
+
+.så {
+  background-color: #0A846E;
+  padding: 1em;
+  border-radius: 9px;
+  color: white;
+
+}
+
+.circle_and_svg {
+  margin-left: 10em;
+  margin-right: 10em;
+
+
+}
+
+.circle {
+  background-color: #0A846E;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+}
+
+
+
+
+.line {
+  background-color: #0A846E;
+  padding: 0.1rem;
+  width: 50%;
+}
+
+
+.planned-plants-title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3em;
+}
+
+.planned-plants {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  /*to be responsive*/
+  gap: 4%;
+}
+
+.plant-card {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  padding: 3rem ;
+}
+
+
+
+
+.all_elements {
+  margin-bottom: 0.8rem;
+  display: grid;
+  gap: 4%;
+  grid-template-columns: 60% auto;
+}
+
+.card-btn {
+  
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: cover;
+  background-position: center;
+}
+.fler {
+  display: flex;
+  margin-top: 10em;
+  margin-bottom: 3em;
+  background-color: #0A846E;
+  padding: 1em;
+  border-radius: 9px;
+  color: white;
+  justify-content: center;
+}
+
+.main_third_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+}
+
+.img_inside {
+  padding: 8em;
+}
+
+.third_part {
+  padding: 3em;
+  text-align: center;
+}
+
+.planterade {
+  background-color: #0A846E;
+  padding: 1em;
+  border-radius: 9px;
+  color: white;
+  margin-bottom: 1em;
+}
+footer{
+  display: none;
+}
+
+/* .footer_container{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
