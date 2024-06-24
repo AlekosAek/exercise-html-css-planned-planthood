@@ -65,14 +65,12 @@ footer {
 
 .first-picture {
   background-color: #9E6D52;
-  flex: 1;
   display: flex;
   padding: 2em;
 }
 
 .second-picture {
   background-color: #0A846E;
-  flex: 1;
   display: flex;
   padding: 2em;
 
@@ -171,7 +169,7 @@ desc p{
   gap: 4%;
 }
 
-.planned-card {
+.plant-card {
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
@@ -412,5 +410,17 @@ footer {}
   }
   .img_inside{
     width: 12rem;
+  }
+
+  .footer_container{
+    display: flex;
+  }
+  .footer_img_logo{
+    order: 1;
+    align-self: center;
+    margin-left: 15%;
+  }
+  .more_black{
+    width:50%
   }
 }
