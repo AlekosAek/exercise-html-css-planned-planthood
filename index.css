@@ -100,8 +100,6 @@ footer {
 
 }
 
-.main_part {}
-
 .desc {
   margin-top: 2.5rem;
   display: flex;
@@ -151,8 +149,6 @@ desc p {
 }
 
 
-
-
 .line {
   background-color: #0A846E;
   padding: 0.1rem;
@@ -199,16 +195,22 @@ desc p {
 }
 
 .card-btn {
-
+  background-image: url(/assets/red_rubbish.svg);
   width: 1.5rem;
   height: 1.5rem;
   background-size: cover;
   background-position: center;
+  color: red;
 }
 
-.a_name{
+.card-btn>p {
+  display: none;
+}
+
+.a_name {
   font-weight: lighter;
 }
+
 .fler {
   display: flex;
   justify-content: center;
@@ -254,8 +256,6 @@ desc p {
   color: white;
   margin-bottom: 1em;
 }
-
-footer {}
 
 .footer_container {
   background-size: cover;
@@ -391,7 +391,6 @@ footer {}
     color: rgba(5, 86, 71, 1);
   }
 
-  nav ul li {}
 
   .main_part {
     display: flex;
@@ -405,6 +404,23 @@ footer {}
   .så {
     margin-left: 25%;
     margin-bottom: 2.5em;
+  }
+
+  .card-btn {
+    background: none;
+    background-image: none;
+    all: unset;
+    background-color: #B93857;
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    margin-right: 1em;
+    max-width: 50%;
+
+  }
+
+  .card-btn>p {
+    display: inline
   }
 
   .fler {
