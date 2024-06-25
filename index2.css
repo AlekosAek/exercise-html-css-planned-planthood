@@ -32,6 +32,7 @@ header {
 
 main {
   grid-area: main;
+  margin:1em
 }
 
 footer {
@@ -94,12 +95,14 @@ footer {
   align-items: flex-start;
   gap: 2em;
 } 
-
+.second_section>h2{
+  align-self: center;
+}
 .plant-card{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1 em;
+  padding: 1em;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .card-img{
@@ -136,5 +139,32 @@ footer {
   margin-right: 1em;
   padding: 0.5em;
   max-width: 50%;
+}
 
+.third_section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.planned-plants{
+  display: flex;
+  gap:2em;
+}
+
+
+.picture_footer{
+  display: flex;
+  padding: 1em;
+  background-color:#9E6D52 ;
+}
+
+.toppen{
+  padding: 2em;
+  margin-left: 30%;
+  width:40%;
+}
+
+.toppen>button{
+  all: unset;
 }
