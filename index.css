@@ -14,7 +14,8 @@ body {
 body {
   background-color: #FCF5FC;
   font-family: "Maven Pro", sans-serif;
-  background-color: white;
+  background-color: #FCF5FC;
+
 }
 
 img {
@@ -26,6 +27,7 @@ img {
   grid-template-columns: 100%;
   grid-template-areas: "header" "main" "footer";
   margin: 0.8rem;
+  background-color: white;
 
 }
 

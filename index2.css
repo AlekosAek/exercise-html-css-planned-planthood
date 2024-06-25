@@ -22,21 +22,26 @@ img {
     "main"
     "footer";
 
-  margin-right: 8em;
-  margin-left: 8em;
+  margin-right: 6em;
+  margin-left: 6em;
 }
 
 header {
   grid-area: header;
+  max-width: 100%;
 }
 
 main {
   grid-area: main;
-  margin:1em
+  margin:1em;
+  max-width: 100%;
+
 }
 
 footer {
   grid-area: footer;
+  max-width: 100%;
+
 }
 
 .ul_header {
@@ -157,12 +162,17 @@ footer {
   display: flex;
   padding: 1em;
   background-color:#9E6D52 ;
+
 }
 
+.picture_footer>figure{
+flex:1
+
+}
 .toppen{
+  display: flex;
   padding: 2em;
-  margin-left: 30%;
-  width:40%;
+  justify-content: center;
 }
 
 .toppen>button{
